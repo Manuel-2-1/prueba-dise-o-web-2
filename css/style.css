@@ -1,3 +1,14 @@
+:root {
+	--bluecolou: #f5fafd;
+	--color-general: #66615b;
+--color_títulos: #111111; 
+--color-iconos-naranja: #f5593d;
+--color-iconos-gris: #888;
+--fondo-footer: #252422;
+--letra-footer: #fff;
+}
+
+
 @charset "utf-8";
 /* CSS Document */
 
@@ -30,7 +41,7 @@ p {
 }
 
 h1,h2,h3 {
-color: #111111;
+color: var(--color_títulos);
 	font-family: "Dosis", sans-serif;
 }
 
@@ -55,11 +66,11 @@ color: #111111;
 
 #features {
 	padding: 10%;
-	color: #66615b;
+	color: var(--color-general);
 }
 
 .featurees p {
-	color: #66615b ;
+	color: var(--color-general) ;
 }
 
 #Features {
@@ -72,8 +83,9 @@ color: #111111;
 }
 
 #screenshots{
-	background-color: #f5fafd ;
+	background-color: var(--bluecolou) ;
 	padding: 10%;
+	text-align: center;
 }
 
 #Screenshotstestimonials {
@@ -81,9 +93,16 @@ color: #111111;
 	
 }
 
+
+.aligntextcenter {text-align: center;
+padding: 4%;
+}
+
+
+
 #download {
-	color: #888;
-	background-image: linear-gradient(to right, #f5593d, #c94265);
+	color: var(--color-iconos-gris);
+	background-image: linear-gradient(to right, var(--color-iconos-naranja), #c94265);
 	padding: 30%;
 }
 #download h2 {color: #fff;
@@ -92,7 +111,7 @@ color: #111111;
 
 
 footer {
-	background-color: #000;
+	background-color: var(--fondo-footer);
 	color: #fff;
 	padding: 10%;
 	text-align: center;
@@ -121,7 +140,7 @@ footer {
 
 i {
 	font-size: 40px;
-	color: #f5593d;
+	color: var(--color-iconos-naranja);
 
 	
 }
@@ -132,13 +151,22 @@ i {
 }
 
 
-
-
+.testimonalcolour {
+	background-color: var(--bluecolou);
+	padding: 5%;
+	border-radius: 10%;
+}
+#About p {color: #000000}
 
 .descriptionsection {
 	padding: 10% 10% 4% 4%;
 	text-align: center
 }
 
-
-
+.overideimgcolor{
+	color: var(--color-iconos-gris);
+}
+.paddingdownload {
+	color: var(--color-iconos-gris);
+	padding: 10%;
+}
