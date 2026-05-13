@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {color: #66615b;}
+
+h1 h2 h3 {color: #111111;}
+
+#hero {
+	
+	background-image: linear-gradient(to right, #f5593d, #c94265);
+	
+	padding: 20%;
+	color: #fff;
+}
+
+
+}
+
+#features {
+	padding: 10%;
+}
+
+#Features {
+	padding: 10%;
+}
+
+#About {
+	padding: 10%;
+}
+
+#screenshots{
+	background-color: #f5fafd ;
+	padding: 10%;
+}
+
+#Screenshotstestimonials {
+	padding: 10%;
+	
+}
+
+#download {
+	color: #888;
+	background-image: linear-gradient(to right, #f5593d, #c94265);
+	padding: 30%;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+}
+
+.btn{
+	border-radius: 10px;
+	border: thin;
+	border-color: #fff;
+	color: #fff;}
+
+.donloadapp {
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+
+
