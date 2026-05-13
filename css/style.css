@@ -1,9 +1,42 @@
 @charset "utf-8";
 /* CSS Document */
 
-p {color: #66615b;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-h1 h2 h3 {color: #111111;}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+	  "wdth" 100;}
+
+
+
+.dosis {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
+p {
+	
+	font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3 {
+color: #111111;
+	font-family: "Dosis", sans-serif;
+}
+
+
+
+
 
 #hero {
 	
@@ -13,11 +46,20 @@ h1 h2 h3 {color: #111111;}
 	color: #fff;
 }
 
-
+#hero h1, p {
+	
+	color: #fff;
+	
 }
+
 
 #features {
 	padding: 10%;
+	color: #66615b;
+}
+
+.featurees p {
+	color: #66615b ;
 }
 
 #Features {
@@ -26,6 +68,7 @@ h1 h2 h3 {color: #111111;}
 
 #About {
 	padding: 10%;
+	color: #fff 
 }
 
 #screenshots{
@@ -43,22 +86,58 @@ h1 h2 h3 {color: #111111;}
 	background-image: linear-gradient(to right, #f5593d, #c94265);
 	padding: 30%;
 }
+#download h2 {color: #fff;
+	padding: 10%;
+}
+
 
 footer {
 	background-color: #000;
 	color: #fff;
-	padding: 30%;
+	padding: 10%;
+	text-align: center;
 }
 
-.btn{
-	border-radius: 10px;
-	border: thin;
-	border-color: #fff;
-	color: #fff;}
+
+
+.btn {
+
+	border:solid !important;
+	border-color: #fff !important;
+	color: #fff !important;
+	border-radius: 100px;
+}
+
 
 .donloadapp {
 	background-color: #fff;
 	border-radius: 20px;
+}
+
+.fa-android {
+	font-size: 50px;
+}
+
+
+i {
+	font-size: 40px;
+	color: #f5593d;
+
+	
+}
+
+
+.rounderimage {
+	border-radius: 300px;
+}
+
+
+
+
+
+.descriptionsection {
+	padding: 10% 10% 4% 4%;
+	text-align: center
 }
 
 
